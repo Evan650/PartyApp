@@ -1,3 +1,22 @@
 {
-  
+    "people": [
+        {
+            "number": "7204125686",
+            "fname": "Evan",
+            "lname": "Yin",
+            "location": "Boulder"
+        },
+        {
+            "number": "7202916454",
+            "fname": "Kenny",
+            "lname": "Ellis",
+            "location": "Boulder"
+        },
+        {
+            "number": "7209389660",
+            "fname": "Angela",
+            "lname": "Werner",
+            "location": "Boulder"
+        }
+    ]
 }
