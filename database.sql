@@ -16,5 +16,5 @@ CREATE TABLE 'UserInfo'.'tbl_address' (
 'city' VARCHAR(45) NULL,
 'state' VARCHAR(20) NULL,
 'country' VARCHAR(45) NULL,
-'postal_code' INT() NULL,
+'postal_code' INT(5) NULL,
 PRIMARY KEY ('address_uid'));
