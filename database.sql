@@ -14,6 +14,7 @@ CREATE TABLE 'UserInfo'.'tbl_address' (
 'address_uid' BIGINT UNIQUE AUTO_INCREMENT,
 'address' VARCHAR(45) NULL,
 'city' VARCHAR(45) NULL,
+'state' VARCHAR(20) NULL,
 'country' VARCHAR(45) NULL,
-'postal code' INT() NULL,
+'postal_code' INT(5) NULL,
 PRIMARY KEY ('address_uid'));
