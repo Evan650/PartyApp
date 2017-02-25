@@ -1,5 +1,8 @@
 #Our database..
 #By: Evan Yin, Angela Werner Kenny Ellis
+
+
+
 CREATE TABLE 'UserInfo'.'tbl_user' (
 'user_uid' BIGINT UNIQUE AUTO_INCREMENT,
 'last_name' VARCHAR(45) NULL,
