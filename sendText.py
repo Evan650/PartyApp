@@ -6,6 +6,6 @@ client = TwilioRestClient(account='AC1886dcb01585fe153b03644681df3ef4',
 
 client.messages.create(from_= "(720) 709-2497",
 			to = "(720) 291-6454",
-			body = "AHOYYYYY")
+			body = "Fuck You")
 
 
