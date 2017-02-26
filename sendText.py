@@ -27,8 +27,7 @@ people_json = {
 }
 parsed_json=json.dumps(people_json)
 
-print(people_json.people.number)
-
+print(people_json["people"][0]["number"])
 
 
 
