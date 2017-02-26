@@ -45,7 +45,7 @@ client_Angela = TwilioRestClient(people_json["people"][2]["account"], people_jso
 client_Evan = TwilioRestClient(people_json["people"][0]["account"], people_json["people"][0]["token"])
 
 
-<<<<<<< HEAD
+
 client = TwilioRestClient(account='AC1886dcb01585fe153b03644681df3ef4',
                              token='732134a0980da87ca9b621b96966f085')
 #the 720-709-2497 number is the twilio free number
@@ -53,7 +53,7 @@ client = TwilioRestClient(account='AC1886dcb01585fe153b03644681df3ef4',
 client.messages.create(from_= "(720) 709-2497",
 			to = people_json["people"][1]["number"],
  			body = "Fuck You")
-=======
+
 client_Kenny.messages.create(from_= "(720) 709-2497",
 			to = people_json["people"][1]["number"],
  			body = "Sup")
@@ -65,4 +65,4 @@ client_Angela.messages.create(from_= "(720) 663-7925",
 client_Evan.messages.create(from_= "(720) 709-2497",
 			to = people_json["people"][0]["number"],
  			body = "Yooo")
->>>>>>> e5dfcf3d7d8b04d4db89e634c06d11a14451212d
+
