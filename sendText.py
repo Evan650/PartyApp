@@ -25,17 +25,20 @@ people_json = {
         }
     ]
 }
+
+
+
 parsed_json=json.dumps(people_json)
 
-print(people_json["people"][0]["number"])
+#print(people_json["people"][1]["number"])
 
 
 
-# client = TwilioRestClient(account='AC1886dcb01585fe153b03644681df3ef4',
-#                               token='732134a0980da87ca9b621b96966f085')
+client = TwilioRestClient(account='AC1886dcb01585fe153b03644681df3ef4',
+                             token='732134a0980da87ca9b621b96966f085')
 
-# client.messages.create(from_= "(720) 709-2497",
-# 			to = people.kenny_number,
-# 			body = "Fuck You")
+client.messages.create(from_= "(720) 709-2497",
+			to = people_json["people"][1]["number"],
+ 			body = "Fuck You")
 
 
