@@ -1,26 +1,3 @@
-{
-    "people": [
-        {
-            "evan_number": "7204125686",
-            "evan_fname": "Evan",
-            "evan_lname": "Yin",
-            "location": "Boulder"
-        },
-        {
-            "kenny_number": "7202916454",
-            "kenny_fname": "Kenny",
-            "kenny_lname": "Ellis",
-            "location": "Boulder"
-        },
-        {
-            "angela_number": "7209389660",
-            "angela_fname": "Angela",
-            "angela_lname": "Werner",
-            "location": "Boulder"
-        }
-    ]
-}
-
 
 
 /*{
