@@ -10,9 +10,9 @@ people_json = {
             "fname": "Evan",
             "lname": "Yin",
             "location": "Boulder",
-            "account": "",
-            "token": ""
-            
+            "account": "AC2b1f84bfa75c15e760818b8dfb18d004",
+            "token": "527ed3c83a715e25196f58759985f021"
+
         },
         {
             "number": "7202916454",
@@ -29,7 +29,7 @@ people_json = {
             "location": "Boulder",
             "account": "AC5c0db887bf711406092b7b6b83b4be7f",
             "token": "9e0786b06b9a303d9a86868e596450f1"
-            
+
         }
     ]
 }
@@ -45,6 +45,15 @@ client_Angela = TwilioRestClient(people_json["people"][2]["account"], people_jso
 client_Evan = TwilioRestClient(people_json["people"][0]["account"], people_json["people"][0]["token"])
 
 
+<<<<<<< HEAD
+client = TwilioRestClient(account='AC1886dcb01585fe153b03644681df3ef4',
+                             token='732134a0980da87ca9b621b96966f085')
+#the 720-709-2497 number is the twilio free number
+#the twilio free account
+client.messages.create(from_= "(720) 709-2497",
+			to = people_json["people"][1]["number"],
+ 			body = "Fuck You")
+=======
 client_Kenny.messages.create(from_= "(720) 709-2497",
 			to = people_json["people"][1]["number"],
  			body = "Sup")
@@ -56,3 +65,4 @@ client_Angela.messages.create(from_= "(720) 663-7925",
 client_Evan.messages.create(from_= "(720) 709-2497",
 			to = people_json["people"][0]["number"],
  			body = "Yooo")
+>>>>>>> e5dfcf3d7d8b04d4db89e634c06d11a14451212d
